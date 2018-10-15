@@ -1,6 +1,6 @@
-class role::app {
+class role::app_old {
   include ::profile::base
-  include ::profile::tomcat
+  include ::profile::tomcat8
   include ::profile::mysqlclient
 }
 
